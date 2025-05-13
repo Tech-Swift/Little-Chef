@@ -1,4 +1,4 @@
-# Little Chef
+ # Little Chef
 
 Little Chef is a simple web-based project built using **HTML**, **CSS**, and **JavaScript**. The goal of this project is to create an interactive and visually appealing platform for showcasing recipes and cooking tips.
 
@@ -14,6 +14,9 @@ Little Chef is a simple web-based project built using **HTML**, **CSS**, and **J
 
 ## Repository
 You can find the source code for this project on GitHub: [Little Chef Repository](https://github.com/Tech-Swift/Little-Chef.git)
+
+## Live Demo
+Check out the live version of the project here: [Little Chef Live Demo](https://tech-swift.github.io/Little-Chef/)
 
 ## How to Run
 1. Clone the repository:
