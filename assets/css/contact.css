@@ -1,0 +1,132 @@
+/* === Shared Section Styles === */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+section p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* === Contact Section === */
+.contact-section {
+  background-color: #fdfdfd;
+  border-top: 3px solid #e67e22;
+}
+
+.contact-description {
+  font-size: 1.1rem;
+}
+
+.contact-details {
+  text-align: center;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-details span {
+  color: #e67e22;
+  font-weight: 500;
+}
+
+/* === Booking Section === */
+.booking-section {
+  background-color: #f9f6f2;
+  border-top: 3px solid #3498db;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.booking-form input,
+.booking-form button {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.booking-form button.booking-submit {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.booking-form button.booking-submit:hover {
+  background-color: #2980b9;
+}
+
+/* === Inquiry Section === */
+.inquiry-section {
+  background-color: #fcfcfc;
+  border-top: 3px solid #27ae60;
+}
+
+.inquiry-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.inquiry-form input,
+.inquiry-form textarea,
+.inquiry-form button {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.inquiry-form textarea {
+  resize: vertical;
+}
+
+.inquiry-form button.inquiry-submit {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.inquiry-form button.inquiry-submit:hover {
+  background-color: #1e8449;
+}
+
+/* === Responsive Design === */
+@media (max-width: 600px) {
+  .booking-form input,
+  .inquiry-form input,
+  .inquiry-form textarea,
+  .booking-form button,
+  .inquiry-form button {
+    width: 90%;
+  }
+}
